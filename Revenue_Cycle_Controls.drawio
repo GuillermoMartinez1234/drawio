@@ -74,7 +74,7 @@
         <mxCell id="ZLwElDjU6CAMhRCAckVM-23" parent="ZLwElDjU6CAMhRCAckVM-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" value="Sales Order Received by Warehouse" vertex="1">
           <mxGeometry height="30" width="145" x="130" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZLwElDjU6CAMhRCAckVM-27" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-27" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.442;entryY=-0.055;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZLwElDjU6CAMhRCAckVM-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="203" y="310" as="targetPoint" />
           </mxGeometry>
@@ -99,6 +99,21 @@
           <mxGeometry relative="1" x="-0.1871" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-32" parent="ZLwElDjU6CAMhRCAckVM-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" value="Goods Picked &amp;amp; Packed" vertex="1">
+          <mxGeometry height="30" width="145" x="140" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-34" parent="ZLwElDjU6CAMhRCAckVM-4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#fad7ac;strokeColor=#b46504;" value="Packing Slip Generated" vertex="1">
+          <mxGeometry height="70" width="105" x="160" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-33" parent="ZLwElDjU6CAMhRCAckVM-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" value="Shipping Authorization Verified" vertex="1">
+          <mxGeometry height="30" width="145" x="140" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-35" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZLwElDjU6CAMhRCAckVM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-36" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.444;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZLwElDjU6CAMhRCAckVM-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-3" parent="ZLwElDjU6CAMhRCAckVM-1" style="swimlane;startSize=20;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Warehouse Department" vertex="1">
           <mxGeometry height="650" width="200" x="980" y="20" as="geometry" />
