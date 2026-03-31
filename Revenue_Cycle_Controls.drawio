@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZLwElDjU6CAMhRCAckVM-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" value="Kissena Bakery - Revenue Cycle (Order-to-Cash)" vertex="1">
-          <mxGeometry height="670" width="865" as="geometry" />
+          <mxGeometry height="670" width="1180" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-2" parent="ZLwElDjU6CAMhRCAckVM-1" style="swimlane;startSize=20;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Sales Department" vertex="1">
-          <mxGeometry height="650" width="450" y="20" as="geometry" />
+          <mxGeometry height="650" width="420" y="20" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-7" edge="1" parent="ZLwElDjU6CAMhRCAckVM-2" source="ZLwElDjU6CAMhRCAckVM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZLwElDjU6CAMhRCAckVM-6">
           <mxGeometry relative="1" as="geometry" />
@@ -66,10 +66,45 @@
           <mxGeometry height="30" width="145" x="260" y="425" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-4" parent="ZLwElDjU6CAMhRCAckVM-1" style="swimlane;startSize=20;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Billing / Accounts Receivable" vertex="1">
-          <mxGeometry height="650" width="215" x="450" y="20" as="geometry" />
+          <mxGeometry height="650" width="560" x="420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-26" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZLwElDjU6CAMhRCAckVM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-23" parent="ZLwElDjU6CAMhRCAckVM-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" value="Sales Order Received by Warehouse" vertex="1">
+          <mxGeometry height="30" width="145" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-27" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="203" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-28" connectable="0" parent="ZLwElDjU6CAMhRCAckVM-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes - In Stock" vertex="1">
+          <mxGeometry relative="1" x="-0.0388" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-25" parent="ZLwElDjU6CAMhRCAckVM-4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFF88,#FFFF00);strokeColor=#36393d;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Inventory Available?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="152.5" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-31" parent="ZLwElDjU6CAMhRCAckVM-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=light-dark(#FA6800,#FF0000);strokeColor=#C73500;fontColor=#000000;" value="Escalate to Manager - Back-Order or Cancel" vertex="1">
+          <mxGeometry height="30" width="145" x="370" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-29" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZLwElDjU6CAMhRCAckVM-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-30" connectable="0" parent="ZLwElDjU6CAMhRCAckVM-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No - Out of Stock" vertex="1">
+          <mxGeometry relative="1" x="-0.1871" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-3" parent="ZLwElDjU6CAMhRCAckVM-1" style="swimlane;startSize=20;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Warehouse Department" vertex="1">
-          <mxGeometry height="650" width="200" x="665" y="20" as="geometry" />
+          <mxGeometry height="650" width="200" x="980" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-24" edge="1" parent="ZLwElDjU6CAMhRCAckVM-1" source="ZLwElDjU6CAMhRCAckVM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZLwElDjU6CAMhRCAckVM-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
