@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
-  <diagram name="Page-1" id="C2ET4kSq9AXaTNfQkRhG">
-    <mxGraphModel dx="673" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6" pages="2">
+  <diagram name="Page 1" id="C2ET4kSq9AXaTNfQkRhG">
+    <mxGraphModel dx="549" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZLwElDjU6CAMhRCAckVM-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" value="Kissena Bakery - Revenue Cycle (Order-to-Cash)" vertex="1">
-          <mxGeometry height="670" width="1180" as="geometry" />
+          <mxGeometry height="710" width="1180" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-2" parent="ZLwElDjU6CAMhRCAckVM-1" style="swimlane;startSize=20;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Sales Department" vertex="1">
-          <mxGeometry height="650" width="420" y="20" as="geometry" />
+          <mxGeometry height="690" width="420" y="20" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-7" edge="1" parent="ZLwElDjU6CAMhRCAckVM-2" source="ZLwElDjU6CAMhRCAckVM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZLwElDjU6CAMhRCAckVM-6">
           <mxGeometry relative="1" as="geometry" />
@@ -66,7 +66,7 @@
           <mxGeometry height="30" width="145" x="260" y="425" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-4" parent="ZLwElDjU6CAMhRCAckVM-1" style="swimlane;startSize=20;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Billing / Accounts Receivable" vertex="1">
-          <mxGeometry height="650" width="560" x="420" y="20" as="geometry" />
+          <mxGeometry height="690" width="560" x="420" y="20" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-26" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZLwElDjU6CAMhRCAckVM-25">
           <mxGeometry relative="1" as="geometry" />
@@ -106,6 +106,9 @@
         <mxCell id="ZLwElDjU6CAMhRCAckVM-34" parent="ZLwElDjU6CAMhRCAckVM-4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#fad7ac;strokeColor=#b46504;" value="Packing Slip Generated" vertex="1">
           <mxGeometry height="70" width="105" x="160" y="360" as="geometry" />
         </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-39" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZLwElDjU6CAMhRCAckVM-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-33" parent="ZLwElDjU6CAMhRCAckVM-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" value="Shipping Authorization Verified" vertex="1">
           <mxGeometry height="30" width="145" x="140" y="490" as="geometry" />
         </mxCell>
@@ -115,12 +118,23 @@
         <mxCell id="ZLwElDjU6CAMhRCAckVM-36" edge="1" parent="ZLwElDjU6CAMhRCAckVM-4" source="ZLwElDjU6CAMhRCAckVM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.444;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZLwElDjU6CAMhRCAckVM-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ZLwElDjU6CAMhRCAckVM-38" parent="ZLwElDjU6CAMhRCAckVM-4" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;span style=&quot;color: rgb(0, 245, 255); font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;→ Continued Page 2&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="60" x="182.5" y="560" as="geometry" />
+        </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-3" parent="ZLwElDjU6CAMhRCAckVM-1" style="swimlane;startSize=20;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="Warehouse Department" vertex="1">
-          <mxGeometry height="650" width="200" x="980" y="20" as="geometry" />
+          <mxGeometry height="690" width="200" x="980" y="20" as="geometry" />
         </mxCell>
         <mxCell id="ZLwElDjU6CAMhRCAckVM-24" edge="1" parent="ZLwElDjU6CAMhRCAckVM-1" source="ZLwElDjU6CAMhRCAckVM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZLwElDjU6CAMhRCAckVM-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GQv_wD1HMgdw6fCFO6Lv" name="Page 2">
+    <mxGraphModel dx="549" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
