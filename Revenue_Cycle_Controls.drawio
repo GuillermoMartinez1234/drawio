@@ -131,7 +131,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GQv_wD1HMgdw6fCFO6Lv" name="Page 2">
-    <mxGraphModel dx="1540" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1856" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,6 +173,12 @@
         </mxCell>
         <mxCell id="Dfk9UnE7lrYmc3ayVZzO-12" edge="1" parent="wLLng3oi3Ku6Gx5PW6bm-1" source="Dfk9UnE7lrYmc3ayVZzO-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="Dfk9UnE7lrYmc3ayVZzO-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfk9UnE7lrYmc3ayVZzO-13" parent="wLLng3oi3Ku6Gx5PW6bm-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" value="Cash Posted to Accounts Receivable" vertex="1">
+          <mxGeometry height="30" width="145" x="27.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfk9UnE7lrYmc3ayVZzO-14" parent="wLLng3oi3Ku6Gx5PW6bm-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="END" vertex="1">
+          <mxGeometry height="60" width="100" x="48" y="520" as="geometry" />
         </mxCell>
         <mxCell id="Dfk9UnE7lrYmc3ayVZzO-8" edge="1" parent="1" source="vLG1J9s5T3JvoTS4Jn0b-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="wLLng3oi3Ku6Gx5PW6bm-2">
           <mxGeometry relative="1" as="geometry" />
